@@ -4,7 +4,7 @@ import { deleteImage, getIamgesData, uploadImage } from './server/images';
 
 function App() {
   // const URL = "https://ariyeb-photos-storage.s3-eu-west-1.amazonaws.com/";
-  const URL = "http://localhost:3030/get-image";
+  const URL = "http://Imagesserver-env.eba-swn3ughs.eu-west-1.elasticbeanstalk.com/get-image";
   const [images, setImages] = useState([]);
 
   useEffect(() => {
